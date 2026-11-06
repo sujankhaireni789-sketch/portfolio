@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0d0d0d" />
+    <meta
+      name="description"
+      content="Sujan Giri is a BIT student and aspiring web developer building clean, practical web applications."
+    />
+    <title>Sujan Giri — BIT Student Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="home.css" />
+    <script src="../script.js?v=home-redesign" defer></script>
+  </head>
+
+  <body data-page="home">
+    <header class="site-header" id="top">
+      <nav class="nav wrap" aria-label="Main navigation">
+        <a class="brand" href="./" aria-label="Sujan Giri, home"
+          ><span class="brand-mark">Portfolio<span class="brand-dot">.</span></span></a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="navigation-links"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navigation-links">
+          <li><a href="./" aria-current="page">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="true">
+          <span class="theme-toggle-icon" aria-hidden="true">☀</span>
+          <span class="theme-toggle-text">Light</span>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero home-hero" id="home" aria-labelledby="hero-title">
+        <div class="home-hero-grid wrap">
+          <div class="hero-copy">
+            <p class="home-greeting">Hello, it's me</p>
+            <h1 id="hero-title">Sujan <span>Giri</span></h1>
+            <p class="home-role-line">
+              And I'm a
+              <span class="hero-role-window" aria-hidden="true"><span class="hero-role-text" data-role-rotator>Web Developer</span></span>
+            </p>
+            <span class="hero-roles-sr-only">BIT student, web developer, sports coordinator at Rotaract Club of Gandaki University, manager at Open Boys Hostel, documentation manager and lab technician at Next Education Foundation, and marketing and sales at Land Himalayan Computer.</span>
+            <p class="hero-description">
+              I'm a BIT student and aspiring web developer with a passion for
+              technology. I enjoy turning ideas into practical software,
+              exploring databases, and building digital experiences that solve
+              real problems.
+            </p>
+            <nav class="social-links home-social-links" data-social-links aria-label="Social media and email"></nav>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#about">More About Me</a>
+              <button class="button button-secondary" id="download-cv" type="button">Download Resume</button>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="home-portrait-frame">
+              <img
+                class="profile-photo"
+                src="../image.jpeg"
+                alt="Portrait of Sujan Giri"
+                onload="this.nextElementSibling.hidden = true;"
+                onerror="this.hidden = true;"
+              />
+              <span class="avatar-initials" aria-hidden="true">SG</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="intro-strip">
+        <div class="intro-inner wrap">
+          <p><span aria-hidden="true">⌖</span> Based in Nepal</p>
+          <div class="intro-center">
+            <span>Thoughtful design</span><span>Useful code</span>
+          </div>
+          <p>Growing one project at a time</p>
+        </div>
+      </div>
+      <section class="home-section home-about" id="about" aria-labelledby="about-title">
+        <div class="wrap home-about-grid">
+          <div class="home-section-intro">
+            <span class="eyebrow">A little about me</span>
+            <h2 id="about-title">Curiosity that turns into <span>useful work.</span></h2>
+          </div>
+          <div class="home-about-copy">
+            <p>
+              I'm studying Information Technology at Gandaki University and
+              growing my skills by making practical things for the web. I like
+              exploring how software works, learning from other people, and
+              turning a clear idea into something useful.
+            </p>
+            <div class="home-facts">
+              <div><small>STUDYING</small><strong>Bachelor of IT</strong></div>
+              <div><small>BASED IN</small><strong>Nepal</strong></div>
+              <div><small>APPROACH</small><strong>Learn by building</strong></div>
+            </div>
+            <a class="home-text-link" href="../about/">More about my journey <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+      <section class="home-section home-services" id="services" aria-labelledby="services-title">
+        <div class="wrap">
+          <div class="home-section-heading">
+            <span class="eyebrow">What I enjoy working on</span>
+            <h2 id="services-title">Ideas into <span>experiences.</span></h2>
+            <p>My current focus is on making digital tools clear, practical, and easy to use.</p>
+          </div>
+          <div class="home-service-grid">
+            <article class="home-service-card">
+              <span class="home-card-icon" aria-hidden="true">&lt;/&gt;</span>
+              <small>01 / FRONTEND</small>
+              <h3>Web Experiences</h3>
+              <p>Building responsive pages with thoughtful structure, accessible details, and clean interfaces.</p>
+            </article>
+            <article class="home-service-card">
+              <span class="home-card-icon" aria-hidden="true">▤</span>
+              <small>02 / APPLICATIONS</small>
+              <h3>Practical Tools</h3>
+              <p>Exploring how code and databases can support everyday needs, from tracking expenses to organizing information.</p>
+            </article>
+            <article class="home-service-card">
+              <span class="home-card-icon" aria-hidden="true">↗</span>
+              <small>03 / PROCESS</small>
+              <h3>Learn by Building</h3>
+              <p>Trying ideas, solving problems, and improving each project through practice and feedback.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="home-section home-skills" id="skills" aria-labelledby="skills-title">
+        <div class="wrap">
+          <div class="home-section-heading">
+            <span class="eyebrow">Tools and strengths</span>
+            <h2 id="skills-title">My <span>Skills.</span></h2>
+            <p>A growing toolkit shaped by coursework, personal projects, and hands-on practice.</p>
+          </div>
+          <div class="home-skills-grid">
+            <section class="home-skill-panel" aria-labelledby="technical-skills-title">
+              <h3 id="technical-skills-title">Technical Skills</h3>
+              <ul class="home-skill-list">
+                <li><span aria-hidden="true">&lt;/&gt;</span>HTML</li>
+                <li><span aria-hidden="true">#</span>CSS</li>
+                <li><span aria-hidden="true">JS</span>JavaScript</li>
+                <li><span aria-hidden="true">PHP</span>PHP</li>
+                <li><span aria-hidden="true">SQL</span>MySQL</li>
+                <li><span aria-hidden="true">JV</span>Java</li>
+                <li><span aria-hidden="true">C</span>C Programming</li>
+                <li><span aria-hidden="true">⌘</span>Git &amp; GitHub</li>
+              </ul>
+            </section>
+            <section class="home-skill-panel home-strengths-panel" aria-labelledby="strengths-title">
+              <h3 id="strengths-title">How I Work</h3>
+              <div class="home-strength-grid">
+                <div><span aria-hidden="true">◎</span><strong>Curiosity</strong></div>
+                <div><span aria-hidden="true">↗</span><strong>Communication</strong></div>
+                <div><span aria-hidden="true">⌕</span><strong>Problem-solving</strong></div>
+                <div><span aria-hidden="true">✳</span><strong>Continuous learning</strong></div>
+              </div>
+            </section>
+          </div>
+          <a class="home-text-link" href="../about/">Explore all my skills <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+      <section class="home-section home-projects" id="projects" aria-labelledby="projects-title">
+        <div class="wrap">
+          <div class="home-section-heading home-projects-heading">
+            <div>
+              <span class="eyebrow">Selected work</span>
+              <h2 id="projects-title">Things I'm <span>building.</span></h2>
+            </div>
+            <a class="home-text-link" href="../projects/">View all projects <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="home-project-grid">
+            <article class="home-project-card">
+              <span class="home-project-number">01</span>
+              <small>PERSONAL PROJECT · WEB APP</small>
+              <h3>Personal Expenses Tracker</h3>
+              <p>A PHP and MySQL application for recording expenses and reviewing everyday spending.</p>
+              <a href="../projects/">View project <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="home-project-card">
+              <span class="home-project-number">02</span>
+              <small>HOSTEL MANAGEMENT</small>
+              <h3>Hostel Management System</h3>
+              <p>A practical system developed for organizing resident records and hostel management activities.</p>
+              <a href="../projects/">View project <span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="home-section home-blog" id="blog" aria-labelledby="home-blog-title">
+        <div class="wrap">
+          <div class="home-section-heading home-projects-heading">
+            <div>
+              <span class="eyebrow">Words, memories &amp; feelings</span>
+              <h2 id="home-blog-title">From my <span>blog.</span></h2>
+            </div>
+            <a class="home-text-link" href="../blog/">Visit the blog <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="home-blog-grid">
+            <article class="home-blog-card" lang="ne">
+              <a class="home-blog-image-link" href="../blog/#friendship-title" aria-label="Read मित्रताको अमूल्य बन्धन on the blog">
+                <img src="../assets/friendship-sunset.png" alt="सूर्यास्तमा समुद्र किनारमा उभिएका दुई साथी" loading="lazy" />
+                <span>मित्रता</span>
+              </a>
+              <div class="home-blog-card-content">
+                <small>मनका कुरा <span aria-hidden="true">·</span> २ मिनेट पढाइ</small>
+                <h3><a href="../blog/#friendship-title">मित्रताको अमूल्य बन्धन</a></h3>
+                <p>टाढा भए पनि मनको दूरी कहिल्यै नहोस्। समय र दूरीले हाम्रो सम्बन्धलाई कमजोर होइन, झन् बलियो बनाओस्।</p>
+                <a class="home-blog-read-link" href="../blog/#friendship-title">ब्लगमा पढ्नुहोस् <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="home-blog-card" lang="ne">
+              <a class="home-blog-image-link home-blog-image-mother" href="../blog/#mother-letter-title" aria-label="Read आमाको आँसु पुछ्ने मेरो संघर्ष on the blog">
+                <span class="home-blog-image-art" aria-hidden="true">आमा</span>
+                <span>प्रेरणा</span>
+              </a>
+              <div class="home-blog-card-content">
+                <small>जीवन संघर्ष <span aria-hidden="true">·</span> ३ मिनेट पढाइ</small>
+                <h3><a href="../blog/#mother-letter-title">आमाको आँसु पुछ्ने मेरो संघर्ष</a></h3>
+                <p>आज हात खाली होला, परिस्थिति साथमा नहोला, तर सपना अझै बाँचेको छ। यो संघर्ष केवल मेरो लागि होइन—मेरी आमाको लागि पनि हो।</p>
+                <a class="home-blog-read-link" href="../blog/#mother-letter-title">ब्लगमा पढ्नुहोस् <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="home-blog-card" lang="ne">
+              <a class="home-blog-image-link" href="../blog/#love-letter-title" aria-label="Read तिमी नै मेरो सुन्दरता on the blog">
+                <img src="../assets/love-poem-cover.png" alt="सूर्यास्तको पृष्ठभूमिमा तिमी नै मेरो सुन्दरता लेखिएको प्रेम कविता" loading="lazy" />
+                <span>प्रेम कविता</span>
+              </a>
+              <div class="home-blog-card-content">
+                <small>प्रेम कविता <span aria-hidden="true">·</span> ४ मिनेट पढाइ</small>
+                <h3><a href="../blog/#love-letter-title">तिमी नै मेरो सुन्दरता</a></h3>
+                <p>फूलसँग कहिल्यै सोधिनँ— “तिमीभन्दा सुन्दर को छ?” चन्द्रमासँग पनि तुलना गरिनँ तिमीलाई।</p>
+                <a class="home-blog-read-link" href="../blog/#love-letter-title">ब्लगमा पढ्नुहोस् <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="home-blog-card" lang="ne">
+              <a class="home-blog-image-link" href="../blog/#dream-letter-title" aria-label="Read मेरो सपना, मेरो जीवनको लक्ष्य on the blog">
+                <img src="../assets/dream-goal-poem-attached.png" alt="पहाडतर्फको घुमाउरो बाटो हेर्दै उभिएको यात्रुको चित्र र मेरो सपना, मेरो जीवनको लक्ष्य शीर्षक" loading="lazy" />
+                <span>सपना र लक्ष्य</span>
+              </a>
+              <div class="home-blog-card-content">
+                <small>सपना र लक्ष्य <span aria-hidden="true">·</span> २ मिनेट पढाइ</small>
+                <h3><a href="../blog/#dream-letter-title">मेरो सपना, मेरो जीवनको लक्ष्य</a></h3>
+                <p>सानै छँदा आँगनमा एक्लै बस्दै आकाश छुने सपना बुन्थें। सपना पूरा नभएसम्म कहिल्यै रोकिन्नँ म।</p>
+                <a class="home-blog-read-link" href="../blog/#dream-letter-title">ब्लगमा पढ्नुहोस् <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="home-section home-contact" id="contact" aria-labelledby="contact-title">
+        <div class="wrap home-contact-inner">
+          <div>
+            <span class="eyebrow">Have an idea?</span>
+            <h2 id="contact-title">Let's make something <span>useful.</span></h2>
+            <p>I'm always glad to connect, share ideas, and learn about a good problem to solve.</p>
+          </div>
+          <a class="button button-primary" href="../contact/">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-columns wrap">
+        <div class="footer-about">
+          <a class="footer-brand" href="./">Portfolio.</a>
+          <p>
+            Building practical digital experiences<br />one project at a time.
+          </p>
+        </div>
+        <div class="footer-nav">
+          <span class="footer-label">NAVIGATION</span><a href="./">Home</a
+          ><a href="../about/">About</a><a href="../projects/">Projects</a
+          ><a href="../blog/">Blog</a>
+        </div>
+        <div class="footer-touch">
+          <span class="footer-label">GET IN TOUCH</span
+          ><a href="mailto:girisujan2064@gmail.com?subject=Hello%20Sujan">Email Sujan ↗</a
+          ><a href="../contact/">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom wrap">
+        <span
+          >© <span id="year">2026</span> Sujan Giri. All rights reserved.</span
+        ><a class="back-top" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+    <article class="cv-print" aria-hidden="true">
+      <h1>Sujan Giri</h1>
+      <p class="cv-muted">
+        BIT Student | Web Developer | Tech Enthusiast | Nepal
+      </p>
+      <h2>Profile</h2>
+      <p>
+        BIT student at Gandaki University developing skills in web development
+        and software. Interested in building clean, practical and user-friendly
+        web applications.
+      </p>
+      <h2>Education</h2>
+      <p>
+        <strong>Bachelor of Information Technology</strong><br />
+        Gandaki University — In progress
+      </p>
+      <h2>Skills</h2>
+      <p>HTML · CSS · JavaScript · PHP · MySQL · Java · C · Git · GitHub</p>
+      <h2>Projects</h2>
+      <p>Personal Expenses Tracker<br />Open Boys Hostel Management System concept</p>
+      <h2>Experience</h2>
+      <p>
+        Sales Person, Land Himalayan Computer Institute — 1 year<br />Computer
+        Lab Technician, Computer Institute of the Next Education Foundation — 1
+        year<br />Documentation Marketing, Next Education Foundation — 2 years
+      </p>
+    </article>
+  </body>
+</html>

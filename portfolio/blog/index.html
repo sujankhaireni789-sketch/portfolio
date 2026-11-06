@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0d0d0d" />
+    <meta
+      name="description"
+      content="Learning notes from Sujan Giri on web development, PHP, MySQL and practical projects."
+    />
+    <title>Blog | Sujan Giri</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../script.js" defer></script>
+  </head>
+  <body data-page="blog">
+    <header class="site-header" id="top">
+      <nav class="nav wrap" aria-label="Main navigation">
+        <a class="brand" href="../home/" aria-label="Sujan Giri, home"
+          ><span class="brand-mark">[SG]</span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="navigation-links"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navigation-links">
+          <li><a href="../home/">Home</a></li>
+          <li><a href="../about/">About</a></li>
+          <li><a href="../projects/">Projects</a></li>
+          <li><a href="./" aria-current="page">Blog</a></li>
+          <li><a href="../contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="blog-section section" aria-labelledby="blog-title">
+        <div class="wrap">
+          <header class="blog-intro" lang="ne">
+            <span class="eyebrow">शब्द, सम्झना र भावना</span>
+            <h1 id="blog-title">केही सम्बन्धहरू सधैं <span>मनमा रहिरहन्छन्।</span></h1>
+            <p>
+              मित्रता, परिवार र प्रेमका भावनाहरूलाई शब्दमा सजाएका केही मनका
+              कुराहरू।
+            </p>
+          </header>
+          <div class="poetry-card-grid">
+            <article class="friendship-letter poetry-card" lang="ne" aria-labelledby="friendship-title">
+              <div class="poetry-cover friendship-cover">
+                <img class="poetry-cover-photo" src="../assets/friendship-sunset.png" alt="सूर्यास्तमा समुद्र किनारमा उभिएका दुई साथी" />
+                <span class="poetry-category">मित्रता</span>
+                <span class="poetry-cover-caption">दूरीभन्दा बलियो सम्बन्ध</span>
+              </div>
+              <div class="poetry-card-content">
+                <div class="poetry-meta"><span>मनका कुरा</span><span>२ मिनेट पढाइ</span></div>
+                <h2 id="friendship-title">मित्रताको अमूल्य बन्धन</h2>
+                <p class="poetry-excerpt">
+                  साथी, तिमी जाँदैछौ सुन्दा मन एकदमै भावुक भएको छ। सँगै हाँसेका,
+                  रमाएका र दुःख–सुख साटेका दिनहरू सम्झिँदा मन भरिन्छ।
+                </p>
+                <details class="poetry-full-story">
+                  <summary>पूरा लेख पढ्नुहोस् <span aria-hidden="true">＋</span></summary>
+                  <div class="friendship-letter-copy">
+                    <p>
+                      साथी, तिमी जाँदैछौ सुन्दा मन एकदमै भावुक भएको छ। हामीले सँगै
+                      बिताएका ती दिनहरू—सँगै हाँसेका, रमाएका, दुःख–सुख साटेका—सबै
+                      कुरा अहिले सम्झिँदा मन भरिन्छ। जीवनले हामीलाई फरक बाटोमा लगे
+                      पनि, हाम्रो मित्रताको नाता सधैं उस्तै बलियो रहिरहोस् भन्ने मेरो
+                      कामना छ।
+                    </p>
+                    <p>
+                      टाढा भए पनि मनको दूरी कहिल्यै नहोस्। समय र दूरीले हाम्रो
+                      सम्बन्धलाई कमजोर होइन, झन् बलियो बनाओस्। तिमी त्यहाँ नयाँ सपना
+                      पूरा गर्न जाँदैछौ, त्यसका लागि धेरै धेरै शुभकामना। जहाँ रहे पनि
+                      खुसी रहनु, सुरक्षित रहनु, र आफ्नो लक्ष्यतर्फ अघि बढिरहनु।
+                    </p>
+                    <p>
+                      मलाई थाहा छ, तिमी बिना यहाँ सबै कुरा अलि खाली–खाली लाग्नेछ, तर
+                      हाम्रो मित्रता सधैं साथमै हुनेछ। फोन, मेसेज, वा सम्झनामा भए
+                      पनि, हामी सधैं जोडिएका रहनेछौं। तिमीलाई धेरै मिस गर्नेछु, साथी।
+                    </p>
+                  </div>
+                  <p class="friendship-letter-signoff">
+                    सधैं यस्तै साथ दिइरहने, माया गरिरहने, र सम्झिरहने—
+                    <strong>तिम्रो साँचो साथी ❤️</strong>
+                  </p>
+                </details>
+              </div>
+            </article>
+            <article class="friendship-letter mother-letter poetry-card" lang="ne" aria-labelledby="mother-letter-title">
+              <div class="poetry-cover mother-cover">
+                <span class="poetry-cover-art mother-cover-art" aria-hidden="true">आमा</span>
+                <span class="poetry-category">प्रेरणा</span>
+                <span class="poetry-cover-caption">आमा र मेरो सपना</span>
+              </div>
+              <div class="poetry-card-content">
+                <div class="poetry-meta"><span>जीवन संघर्ष</span><span>३ मिनेट पढाइ</span></div>
+                <h2 id="mother-letter-title">आमाको आँसु पुछ्ने मेरो संघर्ष</h2>
+                <p class="poetry-excerpt">
+                  आज हात खाली होला, परिस्थिति साथमा नहोला, तर सपना अझै बाँचेको छ।
+                  यो संघर्ष केवल मेरो लागि होइन—मेरी आमाको लागि पनि हो।
+                </p>
+                <details class="poetry-full-story">
+                  <summary>पूरा लेख पढ्नुहोस् <span aria-hidden="true">＋</span></summary>
+                  <div class="friendship-letter-copy">
+                    <p>
+                      कहिलेकाहीँ आफ्ना मान्छेहरूबाट साथ र भरोसा पाउने आशा गरिन्छ, तर
+                      समयले विस्तारै सम्बन्धको वास्तविकता देखाउँदै जाँदो रहेछ। अरूको
+                      वचनमा विश्वास गरेर आफ्ना सपना रोक्दा, परिस्थिति बदलिँदा आफूले नै
+                      आफ्नो जीवनको जिम्मेवारी लिनुपर्ने रहेछ भन्ने महसुस हुँदो रहेछ।
+                      आज हात खाली होला, पैसा नहोला, परिस्थिति साथमा नहोला, तर सपना
+                      अझै बाँचेको छ। दुःख र अभावले कमजोर बनाए पनि हार मान्ने छैन,
+                      किनकि आफ्नै परिचय बनाउने चाहना अझै मनभित्र जीवित छ।
+                    </p>
+                    <p>
+                      यो संघर्ष केवल मेरो लागि होइन, मेरी आमा बाबा को लागि पनि हो।
+                      उहाँले मेरो लागि गर्नुभएको त्याग, दुःख र आँसुको मूल्य कुनै
+                      शब्दले तिर्न सकिँदैन। आज म उहाँको सहारा खोजिरहेको छु होला, तर
+                      एक दिन उहाँलाई मेरो सहारा आवश्यक नपर्ने गरी म आफैँ बलियो भएर
+                      उभिन चाहन्छु। उहाँले मेरो खराब समयमा जसरी मलाई सम्हाल्नुभयो,
+                      त्यसरी नै उहाँ र मेरो परिवारको हरेक दुःखमा ढाल बनेर उभिनु मेरो
+                      सपना हो। भगवानसँग मेरो एउटै प्रार्थना छ—मेरो भागको दुःख मलाई
+                      दिनुहोस्, तर मेरी आमाको आँखामा फेरि कहिल्यै आँसु नदिनुहोस्।
+                    </p>
+                    <p>
+                      आज जसले मेरो खाली हात देखेर मेरो मूल्य नापिरहेका छन्, भोलि यही
+                      हातले बनाएको संसार देख्नेछन्। आजको रोकावट नै भोलिको उडान बन्नेछ,
+                      आजका आँसु नै भोलिको शक्ति बन्नेछन्। मलाई केही समय रोक्न सकिन्छ,
+                      कमजोर बनाउन सकिन्छ, तर मेरो सपना र हार नमान्ने जिद्दीलाई हराउन
+                      सकिँदैन। म कसैसँग गुनासो गर्ने छैन, कसैसँग हिसाब माग्ने छैन;
+                      मेरो सफलता नै मेरो सबैभन्दा ठूलो जवाफ हुनेछ। एक दिन समय मेरो
+                      पनि आउनेछ, र त्यो दिन मेरो मौनताले नै सबैभन्दा ठूलो आवाजमा
+                      बोल्नेछ।
+                    </p>
+                  </div>
+                  <p class="friendship-letter-signoff">
+                    आमा बाबाको आँसु पुछ्ने र परिवारको सहारा बन्ने सपना लिएर—
+                    <strong>हार नमान्ने मेरो संघर्ष ❤️‍🩹 🔥</strong>
+                  </p>
+                </details>
+              </div>
+            </article>
+            <article class="friendship-letter love-letter poetry-card" lang="ne" aria-labelledby="love-letter-title">
+              <div class="poetry-cover love-cover">
+                <img class="poetry-cover-photo love-cover-photo" src="../assets/love-poem-cover.png" alt="सूर्यास्तको पृष्ठभूमिमा तिमी नै मेरो सुन्दरता लेखिएको प्रेम कविता" />
+              </div>
+              <div class="poetry-card-content">
+                <div class="poetry-meta"><span>प्रेम कविता</span><span>४ मिनेट पढाइ</span></div>
+                <h2 id="love-letter-title">तिमी नै मेरो सुन्दरता</h2>
+                <p class="poetry-excerpt">
+                  फूलसँग कहिल्यै सोधिनँ— “तिमीभन्दा सुन्दर को छ?” चन्द्रमासँग पनि
+                  तुलना गरिनँ तिमीलाई, किनकि तिमीलाई भेटेपछि सुन्दरता नाप्ने मेरो
+                  तरिका नै बदलियो।
+                </p>
+                <details class="poetry-full-story">
+                  <summary>पूरा कविता पढ्नुहोस् <span aria-hidden="true">＋</span></summary>
+                  <div class="friendship-letter-copy">
+                    <p>
+                      फूलसँग कहिल्यै सोधिनँ—<br />
+                      “तिमीभन्दा सुन्दर को छ?”<br />
+                      चन्द्रमासँग पनि तुलना गरिनँ तिमीलाई,<br />
+                      किनकि तिमीलाई भेटेपछि<br />
+                      सुन्दरता नाप्ने मेरो तरिका नै बदलियो।
+                    </p>
+                    <p>
+                      पहिले लाग्थ्यो,<br />
+                      माया भनेको कसैलाई मन पराउनु हो।<br />
+                      तर तिमी आएपछि थाहा भयो—<br />
+                      माया त त्यो रहेछ,<br />
+                      जहाँ उसको मुस्कानमा आफ्नो खुशी भेटिन्छ,<br />
+                      उसको दुःखमा आफ्नो मन दुख्छ,<br />
+                      र उसको नाम सुन्नेबित्तिकै<br />
+                      मुटुले अलि छिटो धड्किन थाल्छ।
+                    </p>
+                    <p>
+                      तिमीलाई देख्दा<br />
+                      मसँग शब्दहरू हुँदैनन्,<br />
+                      तर मनभित्र हजारौँ कविता जन्मिन्छन्।<br />
+                      तिमी मुस्कुराउँदा<br />
+                      मलाई संसार जितेजस्तो लाग्छ,<br />
+                      र तिमी चुप लाग्दा<br />
+                      त्यही संसार अलि सुनसान हुन्छ।
+                    </p>
+                    <p>
+                      तिम्रो हात समातेर<br />
+                      मलाई कुनै ठूलो वाचा गर्न मन छैन,<br />
+                      बस् यति चाहन्छु—<br />
+                      समयले कपालमा सेतो रंग भरे पनि,<br />
+                      अनुहारमा उमेरका रेखा कोरे पनि,<br />
+                      मेरो आँखाले तिमीलाई हेर्दा<br />
+                      आजकै जस्तो प्रेम महसुस गरिरहोस्।
+                    </p>
+                    <p>
+                      म तिमीलाई<br />
+                      केवल राम्रो दिनमा होइन,<br />
+                      थाकेका साँझहरूमा पनि रोज्न चाहन्छु।<br />
+                      तिमी हाँस्दा मात्र होइन,<br />
+                      तिमी रोएको बेला पनि<br />
+                      तिम्रो छेउमा उभिन चाहन्छु।<br />
+                      किनकि मेरो प्रेमलाई<br />
+                      तिम्रो सुन्दर अनुहारले होइन,<br />
+                      तिम्रो सम्पूर्ण अस्तित्वले बाँधेको छ।
+                    </p>
+                    <p>
+                      सायद त्यसैले—<br />
+                      फूल ओइलाए पनि फरक पर्दैन,<br />
+                      चन्द्रमा बादलभित्र लुके पनि फरक पर्दैन,<br />
+                      संसारले सुन्दरता बदलिरहे पनि फरक पर्दैन।<br />
+                      मेरो लागि सुन्दरता एउटै रहनेछ—<br />
+                      तिमीले मेरो हात समातेर<br />
+                      हल्का मुस्कुराउँदै भनेको त्यो एक वाक्य—<br />
+                      <strong>“म छु नि।” ❤️</strong>
+                    </p>
+                  </div>
+                  <p class="friendship-letter-signoff">
+                    तिमीलाई हरेक दिन रोजिरहने—
+                    <strong>तिमी नै मेरो सुन्दरता ❤️</strong>
+                  </p>
+                </details>
+              </div>
+            </article>
+            <article class="friendship-letter dream-letter poetry-card" lang="ne" aria-labelledby="dream-letter-title">
+              <div class="poetry-cover dream-cover">
+                <img class="poetry-cover-photo dream-cover-photo" src="../assets/dream-goal-poem-attached.png" alt="पहाडतर्फको घुमाउरो बाटो हेर्दै उभिएको यात्रुको चित्र र मेरो सपना, मेरो जीवनको लक्ष्य शीर्षक" />
+                <span class="poetry-category">प्रेरणा</span>
+                <span class="poetry-cover-caption">मेरो सपना, मेरो जीवनको लक्ष्य</span>
+              </div>
+              <div class="poetry-card-content">
+                <div class="poetry-meta"><span>सपना र लक्ष्य</span><span>२ मिनेट पढाइ</span></div>
+                <h2 id="dream-letter-title">मेरो सपना, मेरो जीवनको लक्ष्य</h2>
+                <p class="poetry-excerpt">
+                  सानै छँदा आँगनमा एक्लै बस्दै आकाश छुने सपना बुन्थें। आज पनि त्यो
+                  सानो मभित्र बाँचेको छ—सपना पूरा नभएसम्म कहिल्यै रोकिन्नँ म।
+                </p>
+                <details class="poetry-full-story">
+                  <summary>पूरा कविता पढ्नुहोस् <span aria-hidden="true">＋</span></summary>
+                  <div class="friendship-letter-copy">
+                    <p>
+                      सानै छँदा आँगनमा एक्लै बस्ने गर्थें म,<br />
+                      आकाश हेर्दै मनभित्र हजारौँ सपना बुन्थें म। ॥१॥
+                    </p>
+                    <p>
+                      अरू खेल्थे साथीहरू, म टोलाई हेर्थें बादल,<br />
+                      कहिले लाग्थ्यो—उडूँ माथि, छोऊँ त्यो नीलो आकाशको पाटल। ॥२॥
+                    </p>
+                    <p>
+                      एकदिन आमालाई सोधेँ— “ठूलो भएपछि के म पनि,<br />
+                      आफ्नो मनले चाहेको ठाउँ पुग्न सक्छु कि कहिल्यै?” ॥३॥
+                    </p>
+                    <p>
+                      आमाले मुस्काउँदै भनिन्— “सपना देख्न नछोड्नु,<br />
+                      बाटो जति गाह्रो भए पनि आफ्नो पाइला पछि नहटाउनु।” ॥४॥
+                    </p>
+                    <p>
+                      त्यही दिनदेखि मनमा एउटा सपना राखेँ मैले,<br />
+                      अरूले रोजेको बाटोभन्दा आफ्नै बाटो रोजेँ मैले। ॥५॥
+                    </p>
+                    <p>
+                      कहिले हारेँ, कहिले रोएँ, आफैँसँग रिसाएँ,<br />
+                      सबैले छोडेझैँ लाग्दा पनि सपनालाई समाएँ। ॥६॥
+                    </p>
+                    <p>
+                      आज पनि त्यो सानो मभित्र कतै बाँचेको छ,<br />
+                      आकाश छुने त्यो बालकले मलाई अझै बोलाएको छ। ॥७॥
+                    </p>
+                    <p>
+                      आकाश छोइँदैन हातले, हिम्मतले छुन्छ रहेछ,<br />
+                      सपना पछ्याउँदै हिँड्दा मान्छे आफैँ बदलिँदो रहेछ। ॥८॥
+                    </p>
+                    <p>
+                      अब मलाई थाहा छ— यात्रा अझै बाँकी नै छ,<br />
+                      तर हिजोको मभन्दा आजको म केही माथि पुगेको छ। ॥९॥
+                    </p>
+                    <p>
+                      हिजो देखेको सपना आज मेरो बाटो बनेको छ,<br />
+                      सानो बालकको त्यो चाहना अब मेरो साहस बनेको छ। ॥१०॥
+                    </p>
+                    <p>
+                      जति टाढा भए पनि लक्ष्यबाट फर्किन्नँ म,<br />
+                      सपना पूरा नभएसम्म कहिल्यै रोकिन्नँ म। ॥११॥
+                    </p>
+                  </div>
+                  <p class="friendship-letter-signoff">
+                    आफ्नो सपनाको बाटोमा निरन्तर अघि बढ्दै—
+                    <strong>मेरो लक्ष्य, मेरो साहस ✨</strong>
+                  </p>
+                </details>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-columns wrap">
+        <div class="footer-about">
+          <a class="footer-brand" href="../home/">[SG]</a>
+          <p>Building practical digital experiences<br />one project at a time.</p>
+        </div>
+        <div class="footer-nav">
+          <span class="footer-label">NAVIGATION</span><a href="../home/">Home</a
+          ><a href="../about/">About</a><a href="../projects/">Projects</a
+          ><a href="./">Blog</a>
+        </div>
+        <div class="footer-touch">
+          <span class="footer-label">GET IN TOUCH</span>
+          <a href="mailto:girisujan2064@gmail.com?subject=Hello%20Sujan">Email Sujan ↗</a>
+          <a href="../contact/">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom wrap">
+        <span>© <span id="year">2026</span> Sujan Giri. All rights reserved.</span>
+        <a class="back-top" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
